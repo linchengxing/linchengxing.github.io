@@ -2,7 +2,6 @@
   "basics": {
     "name": "Chengxing Lin",
     "email": "linchengxing129@gmail.com",
-    "phone": "(+86) 150-1379-9821",
     "url": "https://linchengxing.github.io",
     "location": {
       "city": "Guangzhou",
@@ -25,7 +24,27 @@
     {
       "title": "School Second-class Scholarship",
       "date": "Summer 2022",
-      "awarder": "Guangdong University of Technology"
+      "awarder": "GDUT"
+    },
+    {
+      "title": "CUMCM Guangdong Province Second Prize",
+      "date": "Winter 2022",
+      "awarder": "Guangdong Province"
+    },
+    {
+      "title": "CUMCM Guangdong Province Third Prize",
+      "date": "Winter 2023",
+      "awarder": "Guangdong Province"
+    },
+    {
+      "title": "Preferred College Students Program",
+      "date": "July 2024",
+      "awarder": "UESTC (SZ)"
+    },
+    {
+      "title": "RAICOM CAIP Province Third Prize",
+      "date": "July 2024",
+      "awarder": "Guangdong Province"
     }
   ],
   "skills": [
