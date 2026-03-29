@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-9-18 23:50:00-0400
+date: 2026-03-30 12:00:00+0800
 inline: true
 related_posts: false
 ---
 
-I got the Postgraduate Recommendation from our college!!! :tada::tada::tada:
+Our paper has been accepted by CVPR 2026! :tada::tada::tada:
