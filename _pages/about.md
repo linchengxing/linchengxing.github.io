@@ -17,6 +17,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am Chengxing Lin. I received my bachelor's degree from [Guangdong University of Technology (GDUT)](https://www.gdut.edu.cn) and am currently pursuing my graduate studies at the [Shenzhen Institute of Advanced Technology, University of Electronic Science and Technology of China (UESTC)](https://www.uestc.edu.cn), under the supervision of Prof. Wen Li.
+I am Chengxing Lin. I received my bachelor's degree from [GDUT](https://www.gdut.edu.cn) and am currently pursuing my graduate studies at [UESTC](https://www.uestc.edu.cn), under the supervision of Prof. Wen Li.
 
 My research interests include 3D Vision and Embodied AI.
