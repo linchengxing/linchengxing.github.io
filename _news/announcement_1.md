@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A paper is accepted by IEEE TCSVT (CCF B, JCR Q1, IF=8.3) :tada::tada::tada:.
+Our paper was accepted by IEEE TCSVT (CCF B, JCR Q1, IF=8.3)! :tada::tada::tada:

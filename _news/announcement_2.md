@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper has been accepted by CVPR 2026! :tada::tada::tada:
+Our paper was accepted by CVPR 2026! :tada::tada::tada:

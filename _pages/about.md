@@ -8,9 +8,6 @@ profile:
   align: right
   image: lcx.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Panyu District</p>
-    <p>Guangzhou, Guangdong</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
