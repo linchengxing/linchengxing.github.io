@@ -8,6 +8,10 @@
 "Vision":
   color: "#009f36"
 
+"TCSVT":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76
+  color: "#0f766e"
+
 "CVPR":
   url: https://cvpr.thecvf.com/
   color: "#d84c3f"
