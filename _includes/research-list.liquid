@@ -4,7 +4,7 @@
     <li>
       <a class="paper-title" href="{{ paper.url }}">{{ paper.title | escape }}</a>
       <p>{{ paper.authors | escape }}</p>
-      <p><strong>{{ paper.venue | escape }}</strong> / {{ paper.role | escape }}{% if paper.pdf %} / <a href="{{ paper.pdf | relative_url }}">PDF</a>{% endif %}</p>
+      <p class="paper-meta"><strong class="pixel-label pixel-label--venue">{{ paper.venue | escape }}</strong> <span>{{ paper.role | escape }}</span>{% if paper.pdf %} <a href="{{ paper.pdf | relative_url }}">PDF</a>{% endif %}</p>
     </li>
   {% endfor %}
 </ol>
