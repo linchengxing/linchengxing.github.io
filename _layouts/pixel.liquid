@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.permalink != '/' %}{{ page.title | capitalize | escape }} | {% endif %}Chengxing Lin</title>
+    <meta name="description" content="{{ site.description | strip_html | strip | escape }}">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <meta name="theme-color" content="#ff77a8">
+    <link rel="stylesheet" href="{{ '/assets/css/pixel.css' | relative_url }}">
+  </head>
+  <body>
+    <header id="top">
+      <div class="identity">
+        <h1>{% if page.permalink == '/' %}Chengxing Lin <span lang="zh">林程星</span>{% else %}Publications{% endif %}</h1>
+        <p>{% if page.permalink == '/' %}Embodied AI / 3D Vision{% else %}Chengxing Lin / Research Index{% endif %}</p>
+      </div>
+      <nav aria-label="Main navigation">
+        <a href="{{ '/' | relative_url }}" {% if page.permalink == '/' %}aria-current="page"{% endif %}>Home</a>
+        <a href="{{ '/#research' | relative_url }}">Research</a>
+        <a href="{{ '/publications/' | relative_url }}" {% if page.permalink == '/publications/' %}aria-current="page"{% endif %}>Publications</a>
+        <a href="{{ '/#experience' | relative_url }}">Experience</a>
+        <a href="mailto:{{ site.email }}">Email</a>
+        <a href="https://github.com/{{ site.github_username }}">GitHub</a>
+      </nav>
+    </header>
+    <main>{{ content }}</main>
+    <footer>
+      <p>Chengxing Lin / <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      <p>Updated <time datetime="2026-10-28">2026-10-28</time>. <a href="#top">Back to top</a></p>
+    </footer>
+  </body>
+</html>

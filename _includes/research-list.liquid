@@ -1,0 +1,19 @@
+<h2 id="publications">Publications</h2>
+<ol class="paper-list published-list">
+  {% for paper in site.data.research.published %}
+    <li>
+      <a class="paper-title" href="{{ paper.url }}">{{ paper.title | escape }}</a>
+      <p>{{ paper.authors | escape }}</p>
+      <p><strong>{{ paper.venue | escape }}</strong> / {{ paper.role | escape }}{% if paper.pdf %} / <a href="{{ paper.pdf | relative_url }}">PDF</a>{% endif %}</p>
+    </li>
+  {% endfor %}
+</ol>
+<h2 id="in-progress">Manuscripts</h2>
+<ol class="paper-list submitted-list">
+  {% for paper in site.data.research.submitted %}
+    <li>
+      <span class="paper-title">{{ paper.title | escape }}</span>
+      <p><span class="submission-status">submitting</span></p>
+    </li>
+  {% endfor %}
+</ol>

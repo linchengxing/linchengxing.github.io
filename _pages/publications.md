@@ -1,20 +1,11 @@
 ---
-layout: page
+layout: pixel
 permalink: /publications/
 title: publications
-description: publications by categories in reversed chronological order. * represents equal contributions. 
 nav: true
 nav_order: 2
 ---
 
-<!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
-
-{% include bib_search.liquid %}
-
-<div class="publications">
-
-{% bibliography %}
-
-</div>
+<section aria-label="Research papers">
+  {% include research-list.liquid %}
+</section>

@@ -1,0 +1,23 @@
+published:
+  - title: "Deformation-based In-Context Learning for Point Cloud Understanding"
+    authors: "Chengxing Lin, Jinhong Deng, Yinjie Lei, Wen Li"
+    venue: "CVPR 2026"
+    role: "First author"
+    url: "https://arxiv.org/abs/2604.02845"
+    pdf: "/assets/pdf/deformpic_arxiv_ver.pdf"
+  - title: "Resource-Efficient Masked Autoencoding Framework for 3D Representation Learning"
+    authors: "Jian Zhu, Jiale Zhao, Chengxing Lin, Luan Lyu, Ruichu Cai, Xiaohua Ren, Enhua Wu"
+    venue: "Neural Networks, 2026"
+    role: "Corresponding author"
+    url: "https://www.sciencedirect.com/science/article/abs/pii/S0893608026010002"
+  - title: "PatchMixing Masked Autoencoders for 3D Point Cloud Self-Supervised Learning"
+    authors: "Chengxing Lin, Wenju Xu, Jian Zhu, Yongwei Nie, Ruichu Cai, Xuemiao Xu"
+    venue: "IEEE TCSVT, 2024"
+    role: "Co-first author"
+    url: "https://ieeexplore.ieee.org/document/10538335"
+
+# Keep submission destinations, author lists and review links out of public data.
+submitted:
+  - title: "TETRIS: Self-Supervised Task Representation Learning for Point In-Context Learning"
+  - title: "NavTTT: Adaptive Parametric Memory via Hierarchical Test-Time Training for Vision-and-Language Navigation"
+  - title: "GuidedNav: Shaping Vision-Language Navigation Representations through Pre-Action Attention and Spatial Guidance"
