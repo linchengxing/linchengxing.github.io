@@ -2,9 +2,18 @@
 <ol class="paper-list published-list">
   {% for paper in site.data.research.published %}
     <li>
+      <div class="paper-entry{% if paper.preview %} has-preview{% endif %}">
+      {% if paper.preview %}
+        <a class="paper-preview" href="{{ paper.url }}">
+          <img src="{{ paper.preview | relative_url }}" alt="Overview of {{ paper.title | escape }}" width="{{ paper.preview_width }}" height="{{ paper.preview_height }}" loading="lazy" decoding="async">
+        </a>
+      {% endif %}
+      <div class="paper-details">
       <a class="paper-title" href="{{ paper.url }}">{{ paper.title | escape }}</a>
       <p>{{ paper.authors | escape }}</p>
       <p class="paper-meta"><strong class="pixel-label pixel-label--venue">{{ paper.venue | escape }}</strong> <span>{{ paper.role | escape }}</span>{% if paper.pdf %} <a href="{{ paper.pdf | relative_url }}">PDF</a>{% endif %}</p>
+      </div>
+      </div>
     </li>
   {% endfor %}
 </ol>

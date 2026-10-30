@@ -5,16 +5,25 @@ published:
     role: "First author"
     url: "https://arxiv.org/abs/2604.02845"
     pdf: "/assets/pdf/deformpic_arxiv_ver.pdf"
+    preview: "/assets/img/publication_preview/lin2026deformpic.png"
+    preview_width: 900
+    preview_height: 413
   - title: "Resource-Efficient Masked Autoencoding Framework for 3D Representation Learning"
     authors: "Jian Zhu, Jiale Zhao, Chengxing Lin, Luan Lyu, Ruichu Cai, Xiaohua Ren, Enhua Wu"
     venue: "Neural Networks, 2026"
     role: "Corresponding author"
     url: "https://www.sciencedirect.com/science/article/abs/pii/S0893608026010002"
+    preview: "/assets/img/publication_preview/lin2026epmae.jpg"
+    preview_width: 609
+    preview_height: 243
   - title: "PatchMixing Masked Autoencoders for 3D Point Cloud Self-Supervised Learning"
     authors: "Chengxing Lin, Wenju Xu, Jian Zhu, Yongwei Nie, Ruichu Cai, Xuemiao Xu"
     venue: "IEEE TCSVT, 2024"
     role: "First author"
     url: "https://ieeexplore.ieee.org/document/10538335"
+    preview: "/assets/img/publication_preview/lin2024patchmixing.jpg"
+    preview_width: 2536
+    preview_height: 2576
 
 # Keep submission destinations, author lists and review links out of public data.
 submitted:

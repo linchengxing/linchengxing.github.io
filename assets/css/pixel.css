@@ -97,6 +97,18 @@ li::marker { color: var(--purple); font-weight: bold; }
 .paper-list li { padding: 0 0 20px 4px; margin: 0 0 20px; border-bottom: 4px solid var(--ink); }
 .paper-list li:last-child { border: 0; padding-bottom: 0; margin-bottom: 0; }
 .paper-title { font-weight: bold; }
+.paper-entry { display: inline-block; width: 100%; vertical-align: top; }
+.paper-entry.has-preview { display: inline-grid; grid-template-columns: 168px minmax(0, 1fr); gap: 20px; align-items: start; }
+.paper-details { min-width: 0; }
+.paper-preview {
+  display: block;
+  width: 168px;
+  border: 4px solid var(--ink);
+  box-shadow: 4px 4px 0 var(--ink);
+  background: #fff;
+}
+.paper-preview:hover { background: #fff; border-color: var(--purple); }
+.paper-preview img { display: block; width: 100%; height: auto; }
 .paper-list p { margin: 8px 0 0; font-size: 14px; }
 .paper-list + h2 { margin-top: 28px; }
 .pixel-label, .submission-status {
@@ -132,6 +144,8 @@ footer p { margin: 8px 0; }
   nav a { padding: 4px 2px; font-size: 12px; }
   section { padding: 24px 0; }
   .portrait { width: 96px; height: 128px; margin-left: 12px; }
+  .paper-entry.has-preview { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+  .paper-preview { width: min(240px, 100%); }
 }
 
 @media (max-width: 359px) {
