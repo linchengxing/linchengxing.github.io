@@ -228,6 +228,8 @@ kramdown:
 # Includes & excludes
 include: ["_pages"]
 exclude:
+  - .private-slides/
+  - scripts/
   - outputs/
   - .vscode/
   - bin/
