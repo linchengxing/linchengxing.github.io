@@ -21,7 +21,7 @@ const assets = {};
 const extensions = { '.css': 'text/css', '.js': 'text/javascript', '.svg': 'image/svg+xml', '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.webp': 'image/webp' };
 for (const [language, folder] of [['en', 'slides'], ['zh-CN', 'slides-zh']]) {
   const html = await readFile(join(destination, folder, 'index.html'), 'utf8');
-  if ((html.match(/<section\b[^>]*class="[^\"]*\bslide\b/g) || []).length !== 18) throw new Error('Unexpected slide count.');
+  if ((html.match(/<section\b[^>]*class="[^\"]*\bslide\b/g) || []).length !== 17) throw new Error('Unexpected slide count.');
   pages[language] = html;
   for (const match of html.matchAll(/(?:src|href)="([^"]+)"/g)) {
     const pathname = new URL(match[1], 'https://linchengxing.github.io').pathname;
